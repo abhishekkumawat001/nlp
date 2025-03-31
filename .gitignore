@@ -1,0 +1,37 @@
+# Ignore JSON, TXT, CSV, and other unwanted files
+*.json
+*.txt
+*.csv
+*.pkl
+*.pt
+*.pt.json
+*.zip
+*.tar
+*.gz
+*.h5
+
+# Ignore checkpoint folders (common in ML/DL training)
+checkpoint/
+checkpoints/
+*/checkpoint/
+*/checkpoints/
+
+# Ignore temporary and system files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python bytecode and virtual environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# Ignore VS Code settings (optional)
+.vscode/
