@@ -19,7 +19,13 @@ checkpoints/
 */checkpoint/
 */checkpoints/
 Autoeval-main/
+
+# Ignore student submission folders and files (all variations)
 */Abhishek_kumawat_24401/
+*/Abhishek_Kumawat_24401/
+*Abhishek*Kumawat*24401*/
+Abhishek_kumawat_24401/
+Abhishek_Kumawat_24401/
 
 # Ignore temporary and system files
 .DS_Store
