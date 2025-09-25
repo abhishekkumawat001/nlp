@@ -1,7 +1,7 @@
 # Ignore JSON, TXT, CSV, and other unwanted files
 *.json
 *.txt
-*.csv
+*.py
 *.pkl
 *.pt
 *.pt.json
@@ -9,12 +9,17 @@
 *.tar
 *.gz
 *.h5
+*.png 
+*.pdf
+*.csv
 
 # Ignore checkpoint folders (common in ML/DL training)
 checkpoint/
 checkpoints/
 */checkpoint/
 */checkpoints/
+Autoeval-main/
+*/Abhishek_kumawat_24401/
 
 # Ignore temporary and system files
 .DS_Store
